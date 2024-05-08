@@ -3,7 +3,7 @@ import { SafeAreaView, Text } from "react-native";
 
 import styles from "./styles";
 
-const Notifications = () => {
+const Details = () => {
   return (
     <SafeAreaView style={styles.container}>
       <Text>Hello Notifications</Text>
@@ -11,4 +11,4 @@ const Notifications = () => {
   );
 };
 
-export default Notifications;
+export default Details;

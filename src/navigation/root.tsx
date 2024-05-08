@@ -3,11 +3,11 @@ import { NavigationContainer } from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 
 import Home from "../screens/home/home";
-import Notifications from "../screens/notifications/notifications";
+import Details from "../screens/details/details";
 
 export type RootStackParamList = {
   Home: undefined;
-  Notifications: undefined;
+  Details: undefined;
 };
 
 const Stack = createNativeStackNavigator<RootStackParamList>();
@@ -21,8 +21,8 @@ const Root = () => (
         options={{ headerShown: false }}
       />
       <Stack.Screen
-        name="Notifications"
-        component={Notifications}
+        name="Details"
+        component={Details}
         options={{ headerShown: false }}
       />
     </Stack.Navigator>

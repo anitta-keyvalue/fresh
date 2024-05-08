@@ -8,7 +8,7 @@ const Home = () => {
   const navigation = useNavigation()
 
   const navigateToNotifications = () => {
-    navigation.navigate('Notifications')
+    navigation.navigate('Details')
   }
   return (
     <SafeAreaView style={styles.container}>
